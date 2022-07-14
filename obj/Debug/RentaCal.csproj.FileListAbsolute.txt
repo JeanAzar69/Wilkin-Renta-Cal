@@ -1,0 +1,13 @@
+C:\Users\Trejo\Desktop\RentaCal\RentaCal\bin\Debug\RentaCal.exe.config
+C:\Users\Trejo\Desktop\RentaCal\RentaCal\bin\Debug\RentaCal.exe
+C:\Users\Trejo\Desktop\RentaCal\RentaCal\bin\Debug\RentaCal.pdb
+C:\Users\Trejo\Desktop\RentaCal\RentaCal\obj\Debug\RentaCal.csproj.AssemblyReference.cache
+C:\Users\Trejo\Desktop\RentaCal\RentaCal\obj\Debug\RentaCal.csproj.SuggestedBindingRedirects.cache
+C:\Users\Trejo\Desktop\RentaCal\RentaCal\obj\Debug\RentaCal.Agregar.resources
+C:\Users\Trejo\Desktop\RentaCal\RentaCal\obj\Debug\RentaCal.Form1.resources
+C:\Users\Trejo\Desktop\RentaCal\RentaCal\obj\Debug\RentaCal.Properties.Resources.resources
+C:\Users\Trejo\Desktop\RentaCal\RentaCal\obj\Debug\RentaCal.Ver.resources
+C:\Users\Trejo\Desktop\RentaCal\RentaCal\obj\Debug\RentaCal.csproj.GenerateResource.cache
+C:\Users\Trejo\Desktop\RentaCal\RentaCal\obj\Debug\RentaCal.csproj.CoreCompileInputs.cache
+C:\Users\Trejo\Desktop\RentaCal\RentaCal\obj\Debug\RentaCal.exe
+C:\Users\Trejo\Desktop\RentaCal\RentaCal\obj\Debug\RentaCal.pdb
