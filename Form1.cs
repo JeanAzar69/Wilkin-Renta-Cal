@@ -25,5 +25,14 @@ namespace RentaCal
             fa = null;
             this.Show();
         }
+
+        private void btn_ver_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Ver fv = new Ver();
+            fv.ShowDialog();
+            fv = null;
+            this.Show();
+        }
     }
 }

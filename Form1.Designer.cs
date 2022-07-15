@@ -34,7 +34,7 @@
             // 
             // btn_agregar
             // 
-            this.btn_agregar.Location = new System.Drawing.Point(189, 355);
+            this.btn_agregar.Location = new System.Drawing.Point(12, 415);
             this.btn_agregar.Name = "btn_agregar";
             this.btn_agregar.Size = new System.Drawing.Size(75, 23);
             this.btn_agregar.TabIndex = 0;
@@ -44,12 +44,13 @@
             // 
             // btn_ver
             // 
-            this.btn_ver.Location = new System.Drawing.Point(315, 354);
+            this.btn_ver.Location = new System.Drawing.Point(93, 415);
             this.btn_ver.Name = "btn_ver";
             this.btn_ver.Size = new System.Drawing.Size(75, 23);
             this.btn_ver.TabIndex = 1;
             this.btn_ver.Text = "Ver";
             this.btn_ver.UseVisualStyleBackColor = true;
+            this.btn_ver.Click += new System.EventHandler(this.btn_ver_Click);
             // 
             // Form1
             // 
