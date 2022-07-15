@@ -16,5 +16,10 @@ namespace RentaCal
         {
             InitializeComponent();
         }
+
+        private void txtBfilt_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

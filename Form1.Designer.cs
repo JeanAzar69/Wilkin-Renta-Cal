@@ -34,9 +34,10 @@
             // 
             // btn_agregar
             // 
-            this.btn_agregar.Location = new System.Drawing.Point(12, 415);
+            this.btn_agregar.Location = new System.Drawing.Point(16, 511);
+            this.btn_agregar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_agregar.Name = "btn_agregar";
-            this.btn_agregar.Size = new System.Drawing.Size(75, 23);
+            this.btn_agregar.Size = new System.Drawing.Size(100, 28);
             this.btn_agregar.TabIndex = 0;
             this.btn_agregar.Text = "Agregar";
             this.btn_agregar.UseVisualStyleBackColor = true;
@@ -44,9 +45,10 @@
             // 
             // btn_ver
             // 
-            this.btn_ver.Location = new System.Drawing.Point(93, 415);
+            this.btn_ver.Location = new System.Drawing.Point(124, 511);
+            this.btn_ver.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_ver.Name = "btn_ver";
-            this.btn_ver.Size = new System.Drawing.Size(75, 23);
+            this.btn_ver.Size = new System.Drawing.Size(100, 28);
             this.btn_ver.TabIndex = 1;
             this.btn_ver.Text = "Ver";
             this.btn_ver.UseVisualStyleBackColor = true;
@@ -54,13 +56,15 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.btn_ver);
             this.Controls.Add(this.btn_agregar);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }

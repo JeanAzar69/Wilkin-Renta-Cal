@@ -39,54 +39,62 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(164, 12);
+            this.dataGridView1.Location = new System.Drawing.Point(219, 15);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(624, 426);
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.Size = new System.Drawing.Size(832, 524);
             this.dataGridView1.TabIndex = 0;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 12);
+            this.textBox1.Location = new System.Drawing.Point(16, 15);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(114, 20);
+            this.textBox1.Size = new System.Drawing.Size(151, 22);
             this.textBox1.TabIndex = 1;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(132, 12);
+            this.button1.Location = new System.Drawing.Point(176, 15);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(26, 23);
+            this.button1.Size = new System.Drawing.Size(35, 28);
             this.button1.TabIndex = 2;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // txtBfilt
             // 
-            this.txtBfilt.Location = new System.Drawing.Point(12, 38);
+            this.txtBfilt.Location = new System.Drawing.Point(16, 47);
+            this.txtBfilt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtBfilt.Name = "txtBfilt";
-            this.txtBfilt.Size = new System.Drawing.Size(146, 23);
+            this.txtBfilt.Size = new System.Drawing.Size(195, 28);
             this.txtBfilt.TabIndex = 3;
             this.txtBfilt.Text = "Busqueda Filtrada";
             this.txtBfilt.UseVisualStyleBackColor = true;
+            this.txtBfilt.Click += new System.EventHandler(this.txtBfilt_Click);
             // 
             // cbBfilt
             // 
             this.cbBfilt.FormattingEnabled = true;
-            this.cbBfilt.Location = new System.Drawing.Point(12, 67);
+            this.cbBfilt.Location = new System.Drawing.Point(16, 82);
+            this.cbBfilt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbBfilt.Name = "cbBfilt";
-            this.cbBfilt.Size = new System.Drawing.Size(146, 21);
+            this.cbBfilt.Size = new System.Drawing.Size(193, 24);
             this.cbBfilt.TabIndex = 4;
             // 
             // Ver
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.cbBfilt);
             this.Controls.Add(this.txtBfilt);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.dataGridView1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Ver";
             this.Text = "Ver";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
