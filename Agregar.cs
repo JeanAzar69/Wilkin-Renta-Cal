@@ -54,6 +54,13 @@ namespace RentaCal
            dgvAgregar.DataSource = consult.ReadAllDocument();
         }
 
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            //var filterDefinition = Builders<models>.Filter.Eq(a => a.Marca, txtMarca.Text);
+            //models.(filterDefinition);
+
+        }
+
         //private void txtPrecio_KeyPress(object sender, KeyPressEventArgs e)
         //{
         //    if (!char.IsNumber(e.KeyChar))
