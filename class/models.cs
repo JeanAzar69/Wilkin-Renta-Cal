@@ -12,16 +12,16 @@ namespace RentaCal
     {
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
-        public int Id { get; set; }
+        public string Id { get; set; }
 
         [BsonElement("marca")]
-        public string Narca { get; set; }
+        public string Marca { get; set; }
 
         [BsonElement("modelo")]
         public string Modelo { get; set; }
 
         [BsonElement("precio")]
-        public int Precio { get; set; }
+        public string Precio { get; set; }
 
         [BsonElement("disponibilidad")]
         public string Disponibilidad { get; set; }

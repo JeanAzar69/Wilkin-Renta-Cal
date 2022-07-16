@@ -12,34 +12,27 @@ namespace RentaCal
 {
     public class BDconnect
     {
-
-        private string ConnectionString = $"mongodb+srv://Pyra:{Environment.GetEnvironmentVariable("USERDBPASS")}@cluster0.9zhwp.mongodb.net/{Environment.GetEnvironmentVariable("DBNAME")}?retryWrites=true&w=majority";
-        private string DBname = Environment.GetEnvironmentVariable("DBNAME");
-        private string colecction = Environment.GetEnvironmentVariable("COLECCTION");
-
         private IMongoCollection<T> Conn<T>(string coleccion)
         {
-            var client = new MongoClient(ConnectionString);
-            var DB = client.GetDatabase(DBname);
-            return DB.GetCollection<T>(coleccion);
+            var settings = MongoClientSettings.FromConnectionString("mongodb+srv://Pyra:TuNoMeteCabra@rentalcarhostbd.dzl1jd1.mongodb.net/?retryWrites=true&w=majority");
+            settings.ServerApi = new ServerApi(ServerApiVersion.V1);
+            var client = new MongoClient(settings);
+            var database = client.GetDatabase("RentalBD");
+
+            return database.GetCollection<T>(coleccion);
         }
 
-        //public bool addCar(string marca, string modelo, int precio, string estatus)
-        //{
-        //    bool valid = true;
-        //    var usersCollection = Conn<models>(colecction); 
+        public bool addCar(string marca, string modelo, string precio, string estatus)
+        {
+            bool confir = true;
+            var usersCollection = Conn<models>("cars");
 
-        //    List<models> results = usersCollection.Find(_ => true).ToList();
+            var insert = new models() { Marca = marca, Modelo = modelo, Precio = precio, Disponibilidad = estatus };
+            usersCollection.InsertOne(insert);
 
-        //    for (int i = 0; i < results.Count; i++)
-        //    {
-        //        if (results[i])
-        //        {
-
-        //        }
-
-        //    }
-        //}
+            return confir;
+            
+        }
 
     }
 }
