@@ -22,17 +22,22 @@ namespace RentaCal
             return database.GetCollection<T>(coleccion);
         }
 
-        public bool addCar(string marca, string modelo, string precio, string estatus)
+        public void addCar(string marca, string modelo, string precio, string estatus)
         {
-            bool confir = true;
             var usersCollection = Conn<models>("cars");
 
             var insert = new models() { Marca = marca, Modelo = modelo, Precio = precio, Disponibilidad = estatus };
-            usersCollection.InsertOne(insert);
-
-            return confir;
-            
+            usersCollection.InsertOne(insert);   
         }
+
+        public List<models> ReadAllDocument()
+        {
+            List<models> list = Conn<models>("cars").AsQueryable().ToList();
+
+            return list;
+        }
+
+
 
     }
 }

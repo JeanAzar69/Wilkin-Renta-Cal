@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgvAgregar = new System.Windows.Forms.DataGridView();
             this.txtMarca = new System.Windows.Forms.TextBox();
             this.txtModelo = new System.Windows.Forms.TextBox();
             this.txtPrecio = new System.Windows.Forms.TextBox();
@@ -38,23 +38,23 @@
             this.txtGuardar = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.cbEstatus = new System.Windows.Forms.ComboBox();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvAgregar)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // dgvAgregar
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(264, 15);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.Size = new System.Drawing.Size(787, 524);
-            this.dataGridView1.TabIndex = 0;
+            this.dgvAgregar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvAgregar.Location = new System.Drawing.Point(264, 15);
+            this.dgvAgregar.Margin = new System.Windows.Forms.Padding(4);
+            this.dgvAgregar.Name = "dgvAgregar";
+            this.dgvAgregar.RowHeadersWidth = 51;
+            this.dgvAgregar.Size = new System.Drawing.Size(787, 524);
+            this.dgvAgregar.TabIndex = 0;
             // 
             // txtMarca
             // 
             this.txtMarca.Location = new System.Drawing.Point(123, 15);
-            this.txtMarca.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtMarca.Margin = new System.Windows.Forms.Padding(4);
             this.txtMarca.Name = "txtMarca";
             this.txtMarca.Size = new System.Drawing.Size(132, 22);
             this.txtMarca.TabIndex = 1;
@@ -62,7 +62,7 @@
             // txtModelo
             // 
             this.txtModelo.Location = new System.Drawing.Point(123, 47);
-            this.txtModelo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtModelo.Margin = new System.Windows.Forms.Padding(4);
             this.txtModelo.Name = "txtModelo";
             this.txtModelo.Size = new System.Drawing.Size(132, 22);
             this.txtModelo.TabIndex = 2;
@@ -70,11 +70,10 @@
             // txtPrecio
             // 
             this.txtPrecio.Location = new System.Drawing.Point(123, 79);
-            this.txtPrecio.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPrecio.Margin = new System.Windows.Forms.Padding(4);
             this.txtPrecio.Name = "txtPrecio";
             this.txtPrecio.Size = new System.Drawing.Size(132, 22);
             this.txtPrecio.TabIndex = 3;
-            //this.txtPrecio.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPrecio_KeyPress);
             // 
             // label1
             // 
@@ -110,7 +109,7 @@
             // 
             this.txtGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.txtGuardar.Location = new System.Drawing.Point(16, 511);
-            this.txtGuardar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtGuardar.Margin = new System.Windows.Forms.Padding(4);
             this.txtGuardar.Name = "txtGuardar";
             this.txtGuardar.Size = new System.Drawing.Size(240, 28);
             this.txtGuardar.TabIndex = 8;
@@ -132,7 +131,7 @@
             // 
             this.cbEstatus.FormattingEnabled = true;
             this.cbEstatus.Location = new System.Drawing.Point(123, 106);
-            this.cbEstatus.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbEstatus.Margin = new System.Windows.Forms.Padding(4);
             this.cbEstatus.Name = "cbEstatus";
             this.cbEstatus.Size = new System.Drawing.Size(132, 24);
             this.cbEstatus.TabIndex = 10;
@@ -151,11 +150,12 @@
             this.Controls.Add(this.txtPrecio);
             this.Controls.Add(this.txtModelo);
             this.Controls.Add(this.txtMarca);
-            this.Controls.Add(this.dataGridView1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Controls.Add(this.dgvAgregar);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Agregar";
             this.Text = "Agregar";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.Load += new System.EventHandler(this.Agregar_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvAgregar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -163,7 +163,7 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvAgregar;
         private System.Windows.Forms.TextBox txtMarca;
         private System.Windows.Forms.TextBox txtModelo;
         private System.Windows.Forms.TextBox txtPrecio;

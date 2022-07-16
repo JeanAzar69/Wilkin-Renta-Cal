@@ -14,7 +14,7 @@ namespace RentaCal
         [BsonRepresentation(BsonType.ObjectId)]
         public string Id { get; set; }
 
-        [BsonElement("marca")]
+        [BsonElement("marca")] 
         public string Marca { get; set; }
 
         [BsonElement("modelo")]

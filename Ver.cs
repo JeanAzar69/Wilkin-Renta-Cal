@@ -12,6 +12,7 @@ namespace RentaCal
 {
     public partial class Ver : Form
     {
+        BDconnect consult = new BDconnect();
         public Ver()
         {
             InitializeComponent();
@@ -20,6 +21,11 @@ namespace RentaCal
         private void txtBfilt_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Ver_Load(object sender, EventArgs e)
+        {
+            dgvVer.DataSource = consult.ReadAllDocument();
         }
     }
 }
