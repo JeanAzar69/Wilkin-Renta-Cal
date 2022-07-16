@@ -36,8 +36,5 @@ namespace RentaCal
 
             return list;
         }
-
-
-
     }
 }
