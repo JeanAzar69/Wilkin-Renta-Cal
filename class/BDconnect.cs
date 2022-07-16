@@ -30,7 +30,6 @@ namespace RentaCal
             usersCollection.InsertOne(insert);   
         }
 
-
         public List<models> ReadAllDocument()
         {
             List<models> list = Conn<models>("cars").AsQueryable().ToList();
@@ -38,7 +37,44 @@ namespace RentaCal
             return list;
         }
 
+        /* public void deleteCar(string marca, string modelo, string precio, string estatus)
+         {
+             var usersCollection = Conn<models>("cars");
 
+             var delete = new models() { Marca = marca, Modelo = modelo, Precio = precio, Disponibilidad = estatus };
+             usersCollection.DeleteMany(delete);
+         }*/
+
+
+        public List<models> FilterId(string id)
+        {
+            var userCollection = Conn<models>("cars");
+            bool confirmador = false;
+
+            List<models> filter = userCollection.Find(d => true).ToList();
+
+            for (int i = 0; i < filter.Count(); i++)
+            {
+                if (filter[i].Id == id)
+                {
+                   confirmador = true;
+                }
+                
+            }
+
+            if (confirmador == false)
+            {
+                List<models> list = Conn<models>("cars").AsQueryable().ToList();
+                MessageBox.Show("busqueda fallida");
+                return list;
+            }
+            else
+            {
+                MessageBox.Show("busqueda exitosa");
+                return filter = userCollection.Find(d => d.Id == id).ToList(); 
+            }
+            
+        }
 
     }
 }

@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.dgvVer = new System.Windows.Forms.DataGridView();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtBuscarFiltro = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.txtBfilt = new System.Windows.Forms.Button();
             this.cbBfilt = new System.Windows.Forms.ComboBox();
@@ -46,13 +46,13 @@
             this.dgvVer.Size = new System.Drawing.Size(832, 524);
             this.dgvVer.TabIndex = 0;
             // 
-            // textBox1
+            // txtBuscarFiltro
             // 
-            this.textBox1.Location = new System.Drawing.Point(16, 15);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(151, 22);
-            this.textBox1.TabIndex = 1;
+            this.txtBuscarFiltro.Location = new System.Drawing.Point(16, 15);
+            this.txtBuscarFiltro.Margin = new System.Windows.Forms.Padding(4);
+            this.txtBuscarFiltro.Name = "txtBuscarFiltro";
+            this.txtBuscarFiltro.Size = new System.Drawing.Size(151, 22);
+            this.txtBuscarFiltro.TabIndex = 1;
             // 
             // button1
             // 
@@ -92,7 +92,7 @@
             this.Controls.Add(this.cbBfilt);
             this.Controls.Add(this.txtBfilt);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtBuscarFiltro);
             this.Controls.Add(this.dgvVer);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Ver";
@@ -107,7 +107,7 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dgvVer;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtBuscarFiltro;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button txtBfilt;
         private System.Windows.Forms.ComboBox cbBfilt;
