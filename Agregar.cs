@@ -7,10 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MongoDB;
+using MongoDB.Driver;
 
 
 namespace RentaCal
 {
+    
     public partial class Agregar : Form
     {
         BDconnect consult = new BDconnect();
@@ -18,7 +21,7 @@ namespace RentaCal
         {
             InitializeComponent();
         }
-
+        
         private void txtGuardar_Click(object sender, EventArgs e)
         {
 
@@ -37,6 +40,18 @@ namespace RentaCal
                 MessageBox.Show("Vehiculo añadido");
             }
             
+        }
+
+        //public void ReadAllDocument()
+        //{
+        //    List<models> list = Conn<models>("cars").AsQueryable().ToList();
+        //    dgvAgregar.DataSource = list;
+
+        //}
+
+        private void Agregar_Load(object sender, EventArgs e)
+        {
+           dgvAgregar.DataSource = consult.ReadAllDocument();
         }
 
         //private void txtPrecio_KeyPress(object sender, KeyPressEventArgs e)

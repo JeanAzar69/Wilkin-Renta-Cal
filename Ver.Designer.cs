@@ -28,28 +28,28 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgvVer = new System.Windows.Forms.DataGridView();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.txtBfilt = new System.Windows.Forms.Button();
             this.cbBfilt = new System.Windows.Forms.ComboBox();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvVer)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // dgvVer
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(219, 15);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.Size = new System.Drawing.Size(832, 524);
-            this.dataGridView1.TabIndex = 0;
+            this.dgvVer.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvVer.Location = new System.Drawing.Point(219, 15);
+            this.dgvVer.Margin = new System.Windows.Forms.Padding(4);
+            this.dgvVer.Name = "dgvVer";
+            this.dgvVer.RowHeadersWidth = 51;
+            this.dgvVer.Size = new System.Drawing.Size(832, 524);
+            this.dgvVer.TabIndex = 0;
             // 
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(16, 15);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(151, 22);
             this.textBox1.TabIndex = 1;
@@ -57,7 +57,7 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(176, 15);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(35, 28);
             this.button1.TabIndex = 2;
@@ -67,7 +67,7 @@
             // txtBfilt
             // 
             this.txtBfilt.Location = new System.Drawing.Point(16, 47);
-            this.txtBfilt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtBfilt.Margin = new System.Windows.Forms.Padding(4);
             this.txtBfilt.Name = "txtBfilt";
             this.txtBfilt.Size = new System.Drawing.Size(195, 28);
             this.txtBfilt.TabIndex = 3;
@@ -79,7 +79,7 @@
             // 
             this.cbBfilt.FormattingEnabled = true;
             this.cbBfilt.Location = new System.Drawing.Point(16, 82);
-            this.cbBfilt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbBfilt.Margin = new System.Windows.Forms.Padding(4);
             this.cbBfilt.Name = "cbBfilt";
             this.cbBfilt.Size = new System.Drawing.Size(193, 24);
             this.cbBfilt.TabIndex = 4;
@@ -93,11 +93,12 @@
             this.Controls.Add(this.txtBfilt);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.dataGridView1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Controls.Add(this.dgvVer);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Ver";
             this.Text = "Ver";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.Load += new System.EventHandler(this.Ver_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvVer)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -105,7 +106,7 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvVer;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button txtBfilt;
