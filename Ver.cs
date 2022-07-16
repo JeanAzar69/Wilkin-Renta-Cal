@@ -20,7 +20,14 @@ namespace RentaCal
 
         private void txtBfilt_Click(object sender, EventArgs e)
         {
-
+            if (txtBuscarFiltro.Text == "")
+            {
+                MessageBox.Show("Debe colocar datos en la barra de busqueda");
+            }
+            else
+            {
+                dgvVer.DataSource = consult.FilterId(txtBuscarFiltro.Text);
+            }
         }
 
         private void Ver_Load(object sender, EventArgs e)
