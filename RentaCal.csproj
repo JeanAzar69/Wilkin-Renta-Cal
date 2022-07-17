@@ -167,6 +167,12 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings1.settings</DependentUpon>
     </Compile>
+    <Compile Include="rentar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rentar.Designer.cs">
+      <DependentUpon>rentar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ver.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -189,6 +195,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="rentar.resx">
+      <DependentUpon>rentar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Ver.resx">
       <DependentUpon>Ver.cs</DependentUpon>
     </EmbeddedResource>

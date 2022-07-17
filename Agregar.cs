@@ -38,6 +38,7 @@ namespace RentaCal
                 txtPrecio.Clear();
                 cbEstatus.Text = "";
                 MessageBox.Show("Vehiculo añadido");
+                dgvAgregar.DataSource = consult.ReadAllDocument();
             }
             
         }
@@ -59,6 +60,11 @@ namespace RentaCal
             //var filterDefinition = Builders<models>.Filter.Eq(a => a.Marca, txtMarca.Text);
             //models.(filterDefinition);
 
+        }
+
+        private void cbEstatus_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = true;
         }
 
         //private void txtPrecio_KeyPress(object sender, KeyPressEventArgs e)
