@@ -108,3 +108,5 @@ C:\Users\USUARIO\Desktop\Wilkin-Renta-Cal\obj\Debug\RentaCal.csproj.CopyComplete
 C:\Users\USUARIO\Desktop\Wilkin-Renta-Cal\obj\Debug\RentaCal.exe
 C:\Users\USUARIO\Desktop\Wilkin-Renta-Cal\obj\Debug\RentaCal.pdb
 C:\Users\grego\Desktop\Wilkin-Renta-Cal\obj\Debug\RentaCal.rentar.resources
+C:\Users\USUARIO\Desktop\Wilkin-Renta-Cal\obj\Debug\RentaCal.LS.resources
+C:\Users\USUARIO\Desktop\Wilkin-Renta-Cal\obj\Debug\RentaCal.rentar.resources

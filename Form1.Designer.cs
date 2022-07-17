@@ -35,10 +35,10 @@
             // 
             // btn_agregar
             // 
-            this.btn_agregar.Location = new System.Drawing.Point(16, 511);
-            this.btn_agregar.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_agregar.Location = new System.Drawing.Point(18, 639);
+            this.btn_agregar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btn_agregar.Name = "btn_agregar";
-            this.btn_agregar.Size = new System.Drawing.Size(100, 28);
+            this.btn_agregar.Size = new System.Drawing.Size(112, 35);
             this.btn_agregar.TabIndex = 0;
             this.btn_agregar.Text = "Agregar";
             this.btn_agregar.UseVisualStyleBackColor = true;
@@ -46,10 +46,10 @@
             // 
             // btn_ver
             // 
-            this.btn_ver.Location = new System.Drawing.Point(124, 511);
-            this.btn_ver.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_ver.Location = new System.Drawing.Point(140, 639);
+            this.btn_ver.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btn_ver.Name = "btn_ver";
-            this.btn_ver.Size = new System.Drawing.Size(100, 28);
+            this.btn_ver.Size = new System.Drawing.Size(112, 35);
             this.btn_ver.TabIndex = 1;
             this.btn_ver.Text = "Ver";
             this.btn_ver.UseVisualStyleBackColor = true;
@@ -57,10 +57,10 @@
             // 
             // btnRent
             // 
-            this.btnRent.Location = new System.Drawing.Point(232, 513);
-            this.btnRent.Margin = new System.Windows.Forms.Padding(4);
+            this.btnRent.Location = new System.Drawing.Point(260, 639);
+            this.btnRent.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnRent.Name = "btnRent";
-            this.btnRent.Size = new System.Drawing.Size(100, 28);
+            this.btnRent.Size = new System.Drawing.Size(112, 35);
             this.btnRent.TabIndex = 2;
             this.btnRent.Text = "Rentar";
             this.btnRent.UseVisualStyleBackColor = true;
@@ -68,13 +68,13 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(1200, 692);
             this.Controls.Add(this.btnRent);
             this.Controls.Add(this.btn_ver);
             this.Controls.Add(this.btn_agregar);
-            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
