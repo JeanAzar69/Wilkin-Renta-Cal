@@ -24,19 +24,7 @@ namespace RentaCal
         public Ver()
         {
             InitializeComponent();
-
-           
         }
-
-        public Ver(string dsend, string marcasend, string modelosend, string preciosend, string disponibilidadsend)
-        {
-            this.dsend = dsend;
-            this.marcasend = marcasend;
-            this.modelosend = modelosend;
-            this.preciosend = preciosend;
-            this.disponibilidadsend = disponibilidadsend;
-        }
-
         private void txtBfilt_Click(object sender, EventArgs e)
         {
             if (txtBuscarFiltro.Text == "")

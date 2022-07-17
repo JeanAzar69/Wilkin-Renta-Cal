@@ -241,7 +241,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 577);
+            this.ClientSize = new System.Drawing.Size(1067, 780);
             this.Controls.Add(this.btnModificar);
             this.Controls.Add(this.lbHolder);
             this.Controls.Add(this.txtBuscador);

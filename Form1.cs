@@ -39,5 +39,15 @@ namespace RentaCal
         {
 
         }
+
+        private void btnRent_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            rentar fr = new rentar();
+            fr.ShowDialog();
+            fr = null;
+            this.Show();
+
+        }
     }
 }

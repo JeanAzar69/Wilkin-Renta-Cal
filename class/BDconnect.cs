@@ -135,7 +135,33 @@ namespace RentaCal
             }
         }
 
+        public List<models> disponible()
+        {
+            var userCollection = Conn<models>("cars");
 
+            List<models> filter = userCollection.Find(d => d.Disponibilidad == "Disponible").ToList();
+
+            return filter;
+        }
+
+        public bool rent(string id)
+        {
+            var userCollection = Conn<models>("cars");
+            bool confirmador = false;
+            List<models> list = userCollection.Find(d => true).ToList();
+
+            for (int i = 0; i < list.Count; i++)
+            {
+                if (list[i].Id == id)
+                {
+                    var update = new models() {Id = id, Marca = list[i].Marca, Modelo = list[i].Modelo, Precio = list[i].Precio, Disponibilidad = "Ocupado"};
+                    userCollection.ReplaceOne(d => d.Id == id, update);
+                    confirmador = true;
+                }
+            }
+
+            return confirmador;
+        }
 
     }
 }
