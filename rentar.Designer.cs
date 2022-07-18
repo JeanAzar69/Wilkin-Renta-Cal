@@ -37,17 +37,19 @@
             // dgvRental
             // 
             this.dgvRental.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvRental.Location = new System.Drawing.Point(0, 234);
+            this.dgvRental.Location = new System.Drawing.Point(12, 59);
+            this.dgvRental.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dgvRental.Name = "dgvRental";
             this.dgvRental.RowHeadersWidth = 51;
-            this.dgvRental.Size = new System.Drawing.Size(801, 214);
+            this.dgvRental.Size = new System.Drawing.Size(807, 268);
             this.dgvRental.TabIndex = 0;
             // 
             // btnWant
             // 
-            this.btnWant.Location = new System.Drawing.Point(333, 179);
+            this.btnWant.Location = new System.Drawing.Point(687, 10);
+            this.btnWant.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnWant.Name = "btnWant";
-            this.btnWant.Size = new System.Drawing.Size(196, 23);
+            this.btnWant.Size = new System.Drawing.Size(132, 29);
             this.btnWant.TabIndex = 1;
             this.btnWant.Text = "Quiero rentar";
             this.btnWant.UseVisualStyleBackColor = true;
@@ -55,19 +57,21 @@
             // 
             // txtRent
             // 
-            this.txtRent.Location = new System.Drawing.Point(287, 137);
+            this.txtRent.Location = new System.Drawing.Point(12, 13);
+            this.txtRent.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtRent.Name = "txtRent";
-            this.txtRent.Size = new System.Drawing.Size(287, 22);
+            this.txtRent.Size = new System.Drawing.Size(669, 26);
             this.txtRent.TabIndex = 2;
             // 
             // rentar
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(839, 368);
             this.Controls.Add(this.txtRent);
             this.Controls.Add(this.btnWant);
             this.Controls.Add(this.dgvRental);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "rentar";
             this.Text = "rentar";
             ((System.ComponentModel.ISupportInitialize)(this.dgvRental)).EndInit();

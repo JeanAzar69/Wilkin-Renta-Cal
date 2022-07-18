@@ -53,7 +53,7 @@
             // 
             // txtMarca
             // 
-            this.txtMarca.Location = new System.Drawing.Point(134, 17);
+            this.txtMarca.Location = new System.Drawing.Point(140, 133);
             this.txtMarca.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtMarca.Name = "txtMarca";
             this.txtMarca.Size = new System.Drawing.Size(148, 26);
@@ -61,7 +61,7 @@
             // 
             // txtModelo
             // 
-            this.txtModelo.Location = new System.Drawing.Point(134, 97);
+            this.txtModelo.Location = new System.Drawing.Point(140, 213);
             this.txtModelo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtModelo.Name = "txtModelo";
             this.txtModelo.Size = new System.Drawing.Size(148, 26);
@@ -69,7 +69,7 @@
             // 
             // txtPrecio
             // 
-            this.txtPrecio.Location = new System.Drawing.Point(133, 162);
+            this.txtPrecio.Location = new System.Drawing.Point(139, 278);
             this.txtPrecio.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtPrecio.Name = "txtPrecio";
             this.txtPrecio.Size = new System.Drawing.Size(148, 26);
@@ -78,7 +78,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(14, 107);
+            this.label1.Location = new System.Drawing.Point(20, 223);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(61, 20);
@@ -88,7 +88,7 @@
             // Marca
             // 
             this.Marca.AutoSize = true;
-            this.Marca.Location = new System.Drawing.Point(14, 27);
+            this.Marca.Location = new System.Drawing.Point(20, 143);
             this.Marca.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Marca.Name = "Marca";
             this.Marca.Size = new System.Drawing.Size(53, 20);
@@ -98,7 +98,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(13, 172);
+            this.label4.Location = new System.Drawing.Point(19, 288);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(53, 20);
@@ -120,7 +120,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(13, 246);
+            this.label2.Location = new System.Drawing.Point(19, 362);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(64, 20);
@@ -133,7 +133,7 @@
             this.cbEstatus.Items.AddRange(new object[] {
             "Disponible",
             "Ocupado"});
-            this.cbEstatus.Location = new System.Drawing.Point(133, 233);
+            this.cbEstatus.Location = new System.Drawing.Point(139, 349);
             this.cbEstatus.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cbEstatus.Name = "cbEstatus";
             this.cbEstatus.Size = new System.Drawing.Size(148, 28);
