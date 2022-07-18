@@ -54,7 +54,11 @@
             this.dgvVer.Location = new System.Drawing.Point(166, 12);
             this.dgvVer.Name = "dgvVer";
             this.dgvVer.RowHeadersWidth = 51;
+<<<<<<< HEAD
             this.dgvVer.Size = new System.Drawing.Size(624, 381);
+=======
+            this.dgvVer.Size = new System.Drawing.Size(624, 384);
+>>>>>>> ee2970b9b5aa8176fc054e46d5f07eb8814cddf6
             this.dgvVer.TabIndex = 0;
             // 
             // txtBuscarFiltro
@@ -86,7 +90,11 @@
             // 
             // btnEditar
             // 
+<<<<<<< HEAD
             this.btnEditar.Location = new System.Drawing.Point(17, 92);
+=======
+            this.btnEditar.Location = new System.Drawing.Point(18, 95);
+>>>>>>> ee2970b9b5aa8176fc054e46d5f07eb8814cddf6
             this.btnEditar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(56, 19);
@@ -104,7 +112,11 @@
             this.gbEditor.Controls.Add(this.txtPrecio);
             this.gbEditor.Controls.Add(this.txtModelo);
             this.gbEditor.Controls.Add(this.txtMarca);
+<<<<<<< HEAD
             this.gbEditor.Location = new System.Drawing.Point(15, 187);
+=======
+            this.gbEditor.Location = new System.Drawing.Point(16, 190);
+>>>>>>> ee2970b9b5aa8176fc054e46d5f07eb8814cddf6
             this.gbEditor.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.gbEditor.Name = "gbEditor";
             this.gbEditor.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
@@ -187,7 +199,11 @@
             // 
             // btnBorrar
             // 
+<<<<<<< HEAD
             this.btnBorrar.Location = new System.Drawing.Point(92, 92);
+=======
+            this.btnBorrar.Location = new System.Drawing.Point(93, 95);
+>>>>>>> ee2970b9b5aa8176fc054e46d5f07eb8814cddf6
             this.btnBorrar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnBorrar.Name = "btnBorrar";
             this.btnBorrar.Size = new System.Drawing.Size(56, 19);
@@ -198,16 +214,43 @@
             // 
             // txtBuscador
             // 
+<<<<<<< HEAD
             this.txtBuscador.Location = new System.Drawing.Point(24, 127);
+=======
+            this.txtBuscador.Location = new System.Drawing.Point(25, 130);
+>>>>>>> ee2970b9b5aa8176fc054e46d5f07eb8814cddf6
             this.txtBuscador.Name = "txtBuscador";
             this.txtBuscador.Size = new System.Drawing.Size(114, 20);
             this.txtBuscador.TabIndex = 8;
             this.txtBuscador.Tag = "";
             this.txtBuscador.Visible = false;
             // 
+<<<<<<< HEAD
             // btnModificar
             // 
             this.btnModificar.Location = new System.Drawing.Point(26, 163);
+=======
+            // lbHolder
+            // 
+            this.lbHolder.AutoSize = true;
+            this.lbHolder.BackColor = System.Drawing.Color.Transparent;
+            this.lbHolder.Enabled = false;
+            this.lbHolder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lbHolder.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbHolder.ForeColor = System.Drawing.Color.Black;
+            this.lbHolder.Location = new System.Drawing.Point(25, 151);
+            this.lbHolder.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbHolder.Name = "lbHolder";
+            this.lbHolder.Size = new System.Drawing.Size(119, 13);
+            this.lbHolder.TabIndex = 9;
+            this.lbHolder.Text = "Colocar el id a modificar";
+            this.lbHolder.Visible = false;
+            this.lbHolder.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // btnModificar
+            // 
+            this.btnModificar.Location = new System.Drawing.Point(27, 166);
+>>>>>>> ee2970b9b5aa8176fc054e46d5f07eb8814cddf6
             this.btnModificar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnModificar.Name = "btnModificar";
             this.btnModificar.Size = new System.Drawing.Size(112, 19);
@@ -221,7 +264,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(800, 405);
+=======
+            this.ClientSize = new System.Drawing.Size(800, 408);
+>>>>>>> ee2970b9b5aa8176fc054e46d5f07eb8814cddf6
             this.Controls.Add(this.btnModificar);
             this.Controls.Add(this.txtBuscador);
             this.Controls.Add(this.btnBorrar);
