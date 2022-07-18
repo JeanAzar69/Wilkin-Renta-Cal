@@ -103,6 +103,36 @@ namespace RentaCal
             
         }
 
+        public List<models> FilterMarca(string marca)
+        {
+            var userCollection = Conn<models>("cars");
+            bool confirmador = false;
+
+            List<models> filter = userCollection.Find(a => true).ToList();
+
+            for (int i = 0; i < filter.Count(); i++)
+            {
+                if (filter[i].Marca == marca)
+                {
+                    confirmador = true;
+                }
+
+            }
+
+            if (confirmador == false)
+            {
+                List<models> list = Conn<models>("cars").AsQueryable().ToList();
+                MessageBox.Show("busqueda fallida");
+                return list;
+            }
+            else
+            {
+                MessageBox.Show("busqueda exitosa");
+                return filter = userCollection.Find(a => a.Marca == marca).ToList();
+            }
+
+        }
+
         public void update(string id, string marca, string modelo, string precio, string disponibilidad)
         {
             var userCollection = Conn<models>("cars");
