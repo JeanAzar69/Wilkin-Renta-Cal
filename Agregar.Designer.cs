@@ -44,123 +44,74 @@
             // dgvAgregar
             // 
             this.dgvAgregar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-<<<<<<< HEAD
             this.dgvAgregar.Location = new System.Drawing.Point(297, 19);
             this.dgvAgregar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dgvAgregar.Name = "dgvAgregar";
             this.dgvAgregar.RowHeadersWidth = 51;
             this.dgvAgregar.Size = new System.Drawing.Size(885, 655);
-=======
-            this.dgvAgregar.Location = new System.Drawing.Point(198, 12);
-            this.dgvAgregar.Name = "dgvAgregar";
-            this.dgvAgregar.RowHeadersWidth = 51;
-            this.dgvAgregar.Size = new System.Drawing.Size(590, 426);
->>>>>>> ee2970b9b5aa8176fc054e46d5f07eb8814cddf6
             this.dgvAgregar.TabIndex = 0;
             // 
             // txtMarca
             // 
-<<<<<<< HEAD
-            this.txtMarca.Location = new System.Drawing.Point(134, 17);
+            this.txtMarca.Location = new System.Drawing.Point(140, 133);
             this.txtMarca.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtMarca.Name = "txtMarca";
             this.txtMarca.Size = new System.Drawing.Size(148, 26);
-=======
-            this.txtMarca.Location = new System.Drawing.Point(92, 12);
-            this.txtMarca.Name = "txtMarca";
-            this.txtMarca.Size = new System.Drawing.Size(100, 20);
->>>>>>> ee2970b9b5aa8176fc054e46d5f07eb8814cddf6
             this.txtMarca.TabIndex = 1;
             // 
             // txtModelo
             // 
-<<<<<<< HEAD
-            this.txtModelo.Location = new System.Drawing.Point(134, 97);
+            this.txtModelo.Location = new System.Drawing.Point(140, 213);
             this.txtModelo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtModelo.Name = "txtModelo";
             this.txtModelo.Size = new System.Drawing.Size(148, 26);
-=======
-            this.txtModelo.Location = new System.Drawing.Point(92, 38);
-            this.txtModelo.Name = "txtModelo";
-            this.txtModelo.Size = new System.Drawing.Size(100, 20);
->>>>>>> ee2970b9b5aa8176fc054e46d5f07eb8814cddf6
             this.txtModelo.TabIndex = 2;
             // 
             // txtPrecio
             // 
-<<<<<<< HEAD
-            this.txtPrecio.Location = new System.Drawing.Point(133, 162);
+            this.txtPrecio.Location = new System.Drawing.Point(139, 278);
             this.txtPrecio.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtPrecio.Name = "txtPrecio";
             this.txtPrecio.Size = new System.Drawing.Size(148, 26);
-=======
-            this.txtPrecio.Location = new System.Drawing.Point(92, 64);
-            this.txtPrecio.Name = "txtPrecio";
-            this.txtPrecio.Size = new System.Drawing.Size(100, 20);
->>>>>>> ee2970b9b5aa8176fc054e46d5f07eb8814cddf6
             this.txtPrecio.TabIndex = 3;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-<<<<<<< HEAD
-            this.label1.Location = new System.Drawing.Point(14, 107);
+            this.label1.Location = new System.Drawing.Point(20, 223);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(61, 20);
-=======
-            this.label1.Location = new System.Drawing.Point(12, 45);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(42, 13);
->>>>>>> ee2970b9b5aa8176fc054e46d5f07eb8814cddf6
             this.label1.TabIndex = 4;
             this.label1.Text = "Modelo";
             // 
             // Marca
             // 
             this.Marca.AutoSize = true;
-<<<<<<< HEAD
-            this.Marca.Location = new System.Drawing.Point(14, 27);
+            this.Marca.Location = new System.Drawing.Point(20, 143);
             this.Marca.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Marca.Name = "Marca";
             this.Marca.Size = new System.Drawing.Size(53, 20);
-=======
-            this.Marca.Location = new System.Drawing.Point(12, 19);
-            this.Marca.Name = "Marca";
-            this.Marca.Size = new System.Drawing.Size(37, 13);
->>>>>>> ee2970b9b5aa8176fc054e46d5f07eb8814cddf6
             this.Marca.TabIndex = 6;
             this.Marca.Text = "Marca";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-<<<<<<< HEAD
-            this.label4.Location = new System.Drawing.Point(13, 172);
+            this.label4.Location = new System.Drawing.Point(19, 288);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(53, 20);
-=======
-            this.label4.Location = new System.Drawing.Point(12, 71);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(37, 13);
->>>>>>> ee2970b9b5aa8176fc054e46d5f07eb8814cddf6
             this.label4.TabIndex = 7;
             this.label4.Text = "Precio";
             // 
             // txtGuardar
             // 
             this.txtGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-<<<<<<< HEAD
             this.txtGuardar.Location = new System.Drawing.Point(18, 639);
             this.txtGuardar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtGuardar.Name = "txtGuardar";
             this.txtGuardar.Size = new System.Drawing.Size(270, 35);
-=======
-            this.txtGuardar.Location = new System.Drawing.Point(12, 415);
-            this.txtGuardar.Name = "txtGuardar";
-            this.txtGuardar.Size = new System.Drawing.Size(180, 23);
->>>>>>> ee2970b9b5aa8176fc054e46d5f07eb8814cddf6
             this.txtGuardar.TabIndex = 8;
             this.txtGuardar.Text = "Guardar y Subir";
             this.txtGuardar.UseVisualStyleBackColor = true;
@@ -169,16 +120,10 @@
             // label2
             // 
             this.label2.AutoSize = true;
-<<<<<<< HEAD
-            this.label2.Location = new System.Drawing.Point(13, 246);
+            this.label2.Location = new System.Drawing.Point(19, 362);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(64, 20);
-=======
-            this.label2.Location = new System.Drawing.Point(12, 94);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(42, 13);
->>>>>>> ee2970b9b5aa8176fc054e46d5f07eb8814cddf6
             this.label2.TabIndex = 9;
             this.label2.Text = "Estatus";
             // 
@@ -188,30 +133,18 @@
             this.cbEstatus.Items.AddRange(new object[] {
             "Disponible",
             "Ocupado"});
-<<<<<<< HEAD
-            this.cbEstatus.Location = new System.Drawing.Point(133, 233);
+            this.cbEstatus.Location = new System.Drawing.Point(139, 349);
             this.cbEstatus.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cbEstatus.Name = "cbEstatus";
             this.cbEstatus.Size = new System.Drawing.Size(148, 28);
-=======
-            this.cbEstatus.Location = new System.Drawing.Point(92, 86);
-            this.cbEstatus.Name = "cbEstatus";
-            this.cbEstatus.Size = new System.Drawing.Size(100, 21);
->>>>>>> ee2970b9b5aa8176fc054e46d5f07eb8814cddf6
             this.cbEstatus.TabIndex = 10;
             this.cbEstatus.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.cbEstatus_KeyPress);
             // 
             // Agregar
             // 
-<<<<<<< HEAD
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1200, 692);
-=======
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
->>>>>>> ee2970b9b5aa8176fc054e46d5f07eb8814cddf6
             this.Controls.Add(this.cbEstatus);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtGuardar);
@@ -222,10 +155,7 @@
             this.Controls.Add(this.txtModelo);
             this.Controls.Add(this.txtMarca);
             this.Controls.Add(this.dgvAgregar);
-<<<<<<< HEAD
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-=======
->>>>>>> ee2970b9b5aa8176fc054e46d5f07eb8814cddf6
             this.Name = "Agregar";
             this.Text = "Agregar";
             this.Load += new System.EventHandler(this.Agregar_Load);

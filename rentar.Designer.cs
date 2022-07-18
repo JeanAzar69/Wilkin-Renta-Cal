@@ -37,31 +37,19 @@
             // dgvRental
             // 
             this.dgvRental.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-<<<<<<< HEAD
-            this.dgvRental.Location = new System.Drawing.Point(-1, 106);
-=======
-            this.dgvRental.Location = new System.Drawing.Point(-1, 91);
->>>>>>> ee2970b9b5aa8176fc054e46d5f07eb8814cddf6
-            this.dgvRental.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dgvRental.Location = new System.Drawing.Point(12, 59);
+            this.dgvRental.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dgvRental.Name = "dgvRental";
             this.dgvRental.RowHeadersWidth = 51;
-            this.dgvRental.Size = new System.Drawing.Size(601, 174);
+            this.dgvRental.Size = new System.Drawing.Size(807, 268);
             this.dgvRental.TabIndex = 0;
             // 
             // btnWant
             // 
-<<<<<<< HEAD
-            this.btnWant.Location = new System.Drawing.Point(383, 48);
-            this.btnWant.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnWant.Location = new System.Drawing.Point(687, 10);
+            this.btnWant.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnWant.Name = "btnWant";
-            this.btnWant.Size = new System.Drawing.Size(147, 20);
-=======
-            this.btnWant.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btnWant.Location = new System.Drawing.Point(461, 47);
-            this.btnWant.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.btnWant.Name = "btnWant";
-            this.btnWant.Size = new System.Drawing.Size(128, 20);
->>>>>>> ee2970b9b5aa8176fc054e46d5f07eb8814cddf6
+            this.btnWant.Size = new System.Drawing.Size(132, 29);
             this.btnWant.TabIndex = 1;
             this.btnWant.Text = "Quiero rentar";
             this.btnWant.UseVisualStyleBackColor = true;
@@ -69,32 +57,21 @@
             // 
             // txtRent
             // 
-<<<<<<< HEAD
-            this.txtRent.Location = new System.Drawing.Point(37, 48);
-            this.txtRent.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtRent.Location = new System.Drawing.Point(12, 13);
+            this.txtRent.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtRent.Name = "txtRent";
-            this.txtRent.Size = new System.Drawing.Size(330, 20);
-=======
-            this.txtRent.Location = new System.Drawing.Point(11, 48);
-            this.txtRent.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.txtRent.Name = "txtRent";
-            this.txtRent.Size = new System.Drawing.Size(446, 20);
->>>>>>> ee2970b9b5aa8176fc054e46d5f07eb8814cddf6
+            this.txtRent.Size = new System.Drawing.Size(669, 26);
             this.txtRent.TabIndex = 2;
             // 
             // rentar
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-<<<<<<< HEAD
-            this.ClientSize = new System.Drawing.Size(600, 278);
-=======
-            this.ClientSize = new System.Drawing.Size(601, 264);
->>>>>>> ee2970b9b5aa8176fc054e46d5f07eb8814cddf6
+            this.ClientSize = new System.Drawing.Size(839, 368);
             this.Controls.Add(this.txtRent);
             this.Controls.Add(this.btnWant);
             this.Controls.Add(this.dgvRental);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "rentar";
             this.Text = "rentar";
             ((System.ComponentModel.ISupportInitialize)(this.dgvRental)).EndInit();
