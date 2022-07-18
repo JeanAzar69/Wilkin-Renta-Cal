@@ -16,7 +16,7 @@ namespace RentaCal
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LS());
+            Application.Run(new Form1());
         }
     }
 }
