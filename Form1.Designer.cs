@@ -35,35 +35,44 @@
             // 
             // btn_agregar
             // 
-            this.btn_agregar.Location = new System.Drawing.Point(18, 639);
+            this.btn_agregar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(91)))), ((int)(((byte)(62)))));
+            this.btn_agregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_agregar.Font = new System.Drawing.Font("Apercu Pro", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_agregar.Location = new System.Drawing.Point(50, 174);
             this.btn_agregar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btn_agregar.Name = "btn_agregar";
-            this.btn_agregar.Size = new System.Drawing.Size(112, 35);
+            this.btn_agregar.Size = new System.Drawing.Size(229, 80);
             this.btn_agregar.TabIndex = 0;
             this.btn_agregar.Text = "Agregar";
-            this.btn_agregar.UseVisualStyleBackColor = true;
+            this.btn_agregar.UseVisualStyleBackColor = false;
             this.btn_agregar.Click += new System.EventHandler(this.btn_agregar_Click);
             // 
             // btn_ver
             // 
-            this.btn_ver.Location = new System.Drawing.Point(140, 639);
+            this.btn_ver.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(91)))), ((int)(((byte)(62)))));
+            this.btn_ver.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_ver.Font = new System.Drawing.Font("Apercu Pro", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_ver.Location = new System.Drawing.Point(50, 342);
             this.btn_ver.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btn_ver.Name = "btn_ver";
-            this.btn_ver.Size = new System.Drawing.Size(112, 35);
+            this.btn_ver.Size = new System.Drawing.Size(229, 80);
             this.btn_ver.TabIndex = 1;
             this.btn_ver.Text = "Ver";
-            this.btn_ver.UseVisualStyleBackColor = true;
+            this.btn_ver.UseVisualStyleBackColor = false;
             this.btn_ver.Click += new System.EventHandler(this.btn_ver_Click);
             // 
             // btnRent
             // 
-            this.btnRent.Location = new System.Drawing.Point(260, 639);
+            this.btnRent.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(91)))), ((int)(((byte)(62)))));
+            this.btnRent.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRent.Font = new System.Drawing.Font("Apercu Pro", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRent.Location = new System.Drawing.Point(50, 508);
             this.btnRent.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnRent.Name = "btnRent";
-            this.btnRent.Size = new System.Drawing.Size(112, 35);
+            this.btnRent.Size = new System.Drawing.Size(229, 80);
             this.btnRent.TabIndex = 2;
             this.btnRent.Text = "Rentar";
-            this.btnRent.UseVisualStyleBackColor = true;
+            this.btnRent.UseVisualStyleBackColor = false;
             this.btnRent.Click += new System.EventHandler(this.btnRent_Click);
             // 
             // Form1
