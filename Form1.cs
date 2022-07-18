@@ -49,5 +49,10 @@ namespace RentaCal
             this.Show();
 
         }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

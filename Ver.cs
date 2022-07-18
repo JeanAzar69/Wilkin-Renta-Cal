@@ -33,7 +33,9 @@ namespace RentaCal
             }
             else 
             {
-                    dgvVer.DataSource = consult.FilterId(txtBuscarFiltro.Text);  
+
+                /*dgvVer.DataSource = consult.FilterId(txtBuscarFiltro.Text);*/
+                dgvVer.DataSource = consult.FilterMarca(txtBuscarFiltro.Text);
             }
         }
 
