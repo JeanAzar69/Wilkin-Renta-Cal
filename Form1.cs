@@ -34,12 +34,6 @@ namespace RentaCal
             fv = null;
             this.Show();
         }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnRent_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -49,7 +43,6 @@ namespace RentaCal
             this.Show();
 
         }
-
         private void btnClose_Click(object sender, EventArgs e)
         {
             Application.Exit();
