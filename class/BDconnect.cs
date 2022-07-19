@@ -61,18 +61,6 @@ namespace RentaCal
 
             return list;
         }
-
-        
-
-        /* public void deleteCar(string marca, string modelo, string precio, string estatus)
-         {
-             var usersCollection = Conn<models>("cars");
-
-             var delete = new models() { Marca = marca, Modelo = modelo, Precio = precio, Disponibilidad = estatus };
-             usersCollection.DeleteMany(delete);
-         }*/
-
-
         public List<models> FilterId(string id)
         {
             var userCollection = Conn<models>("cars");
