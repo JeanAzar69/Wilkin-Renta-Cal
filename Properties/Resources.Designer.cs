@@ -79,6 +79,16 @@ namespace RentaCal.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap LOGO_LS__3_ {
+            get {
+                object obj = ResourceManager.GetObject("LOGO_LS (3)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to mongodb+srv://Pyra:TuNoMeteCabra@rentalcarhostbd.dzl1jd1.mongodb.net/Test.
         /// </summary>
         internal static string URLBD {
